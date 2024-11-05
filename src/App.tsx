@@ -1,11 +1,11 @@
 import Header from '@/components/Header';
-import Cards from '@/components/Cards';
+import FeatureCards from '@/components/FeatureCards';
 
 function App() {
   return (
     <div className='flex items-center justify-center flex-col py-20'>
       <Header />
-      <Cards />
+      <FeatureCards />
     </div>
   );
 }
